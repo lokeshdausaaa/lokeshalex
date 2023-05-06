@@ -154,26 +154,26 @@ async def start_comm(client, message: Message, _):
                 link = result["link"]
                 published = result["publishedTime"]
             searched_text = f"""
-😲**ᴛʀᴀᴄᴋ ɪɴғᴏʀɴᴀᴛɪᴏɴ**😲
+😲**Track Information**😲
 
-📌 **ᴛɪᴛʟᴇ:** {title}
+📌 **Title:** {title}
 
-⏳ **ᴅᴜʀᴀᴛɪᴏɴ:** {duration} ᴍɪɴᴜᴛᴇs
-👀 **ᴠɪᴇᴡs:** `{views}`
-⏰ **ᴩᴜʙʟɪsʜᴇᴅ ᴏɴ:** {published}
-🎥 **ᴄʜᴀɴɴᴇʟ:** {channel}
-📎 **ᴄʜᴀɴɴᴇʟ ʟɪɴᴋ:** [ᴠɪsɪᴛ ᴄʜᴀɴɴᴇʟ]({channellink})
-🔗 **ʟɪɴᴋ:** [ᴡᴀᴛᴄʜ ᴏɴ ʏᴏᴜᴛᴜʙᴇ]({link})
+💫 **Duration:** {duration} ᴍɪɴᴜᴛᴇs
+👀 **Views:** `{views}`
+⏰ **Published on:** {published}
+🎥 **Channel:** {channel}
+📎 **Channel link:** [Visit Channel]({channellink})
+🔗 **Link:** [Watch on YouTube]({link})
 
 💖 sᴇᴀʀᴄʜ ᴩᴏᴡᴇʀᴇᴅ ʙʏ {config.MUSIC_BOT_NAME}"""
             key = InlineKeyboardMarkup(
                 [
                     [
                         InlineKeyboardButton(
-                            text="• ʏᴏᴜᴛᴜʙᴇ •", url=f"{link}"
+                            text="• YouTube •", url=f"{link}"
                         ),
                         InlineKeyboardButton(
-                            text="• sᴜᴩᴩᴏʀᴛ •", url="https://t.me/DevilsHeavenMF"
+                            text="• Support •", url="https://t.me/Ajnabee_duniya"
                         ),
                     ],
                 ]
