@@ -35,6 +35,17 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
             )
         ],
         [
+
+        InlineKeyboardButton(
+
+            text="🫧𝐂𝐇𝐀𝐍𝐍𝐄𝐋🫧",
+
+            url=f"https://t.me/About_Alexander",
+
+        ) 
+
+     ],
+        [
             InlineKeyboardButton(
                 text="ʜᴇʟᴩ", callback_data="settings_back_helper"
             )
@@ -49,7 +60,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [
             InlineKeyboardButton(
-                text=" sᴏᴜʀᴄᴇ ", url=config.UPSTREAM_REPO
+                text=" sᴏᴜʀᴄᴇ ", url="https://t.me/About_Alexander"
             )
         ],
      ]
