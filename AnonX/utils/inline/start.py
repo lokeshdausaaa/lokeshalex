@@ -40,7 +40,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
 
             text="ᴄʜᴀɴɴᴇʟ ",
 
-            url=f"https://t.me/About_Alexander",
+            url=f"https://t.me/kalam_se",
 
         ) 
 
@@ -60,7 +60,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [
             InlineKeyboardButton(
-                text=" ᴄʜᴀᴛ ", url="https://t.me/Ajanabee_Duniya"
+                text=" Study Group ", url="https://t.me/kalam_kranti"
             )
         ],
      ]
